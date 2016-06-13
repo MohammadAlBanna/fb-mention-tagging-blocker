@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Facebook Mention Tagging Blocker</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+        <script type="text/javascript" src="js/enscroll.js"></script>
+    </head>
+    <body>
+        <section class="container">
+            <header class="header">
+                <img id="fbmtbLogo" src="images/48.png" height="48" width="48" alt="FaceBook Mention Tagging Blocker">
+                <div><h2>Facebook Mention Tagging Blocker</h2></div>
+                <div><h4>Where the shield will protect you from annoying friends in Facebook!</h4></div>
+            </header>
+            <div class="fbmtb">
+                <ul class="tabs">
+                    <li class="tab-link current" data-tab="tab-1" title="Block users screen">Main</li>
+                    <li class="tab-link" data-tab="tab-2">Settings</li>
+                    <li class="tab-link" data-tab="tab-3">Profile URL</li>
+                    <li class="tab-link" data-tab="tab-4" title="More extensions and others products"><span class="new-tab">New</span>Products</li>
+                    <li class="tab-link" data-tab="tab-5" title="Share this extension?">Like & Share</li>
+                </ul>
+                <div id="tab-1" class="tab-content current fb-blocked-users">
+                    <div class="fbmtb-search-removeAll-box">
+                        <input type="text" name="searchUsers" class="search-users" value="" placeholder="Search inside blocked users..." />
+                        <a class="uibutton removeAllBtn" href="#" title="Remove all blocked users">Remove All</a>
+						<a class="uibutton blockCurrentUser" href="#" title="Block current user"></a>
+                   		<img class="blockLoaderImage" src="images/loader.gif" height="32" width="32" />
+                    </div>
+
+                </div>
+                <div id="tab-2" class="tab-content">
+                    <div class="shield-settings">
+                        <h3>Shield</h3>
+                        <div class="settings">
+							<label for="stopFromAllUsers" title="Block mentions and tags from all Facebook users even if they are not friends of you"><input id="stopFromAllUsers" name="stopFromAllUsers" type="checkbox" value="N" />
+							Block from all Facebook users </label>
+							<label for="allowFromAllUsers" title="Allow all mentions and tags even from blocked users">
+								<input id="allowFromAllUsers" name="allowFromAllUsers" type="checkbox" value="N" />
+							Allow from all Facebook users</label>
+						</div>
+					</div>
+					<div class="on-settings">
+						<h3>On</h3>
+						<div class="settings">
+							<label for="onCommentsSetting" title="Apply action settings on comments"><input class="on-settings" id="onCommentsSetting" name="onCommentsSetting" type="checkbox" value="N" />
+							Comments </label>
+							<label for="onPostsSetting" title="Apply action settings on posts">
+								<input class="on-settings" id="onPostsSetting" name="onPostsSetting" type="checkbox" value="N" />
+							Posts</label>
+							<label for="onImagesSetting" title="Apply action settings on images">
+								<input class="on-settings" id="onImagesSetting" name="onImagesSetting" type="checkbox" value="N" />
+							Images</label>
+						</div>
+					</div>
+			</div>
+				<div id="tab-3" class="tab-content">
+					 <div class="fbmtb-block-user-by-id">
+						<input type="text" name="userId" class="block-user-by-id-input" value="" placeholder="Enter user profile url" />
+						<a class="uibutton blockUserById" href="#" title="Block user by ID">Block User</a>
+						<img class="blockLoaderImage" src="images/loader.gif" height="32" width="32" />
+					</div>
+					 <h2>What is this?</h2>
+						<p>Because of Facebook style changes, the extension may stuck on render "Block this user from @" button in the user's profiles, so you can just type the user's profile URL on this box and click on "Block User" button and keep the rest of works on the extension!</p>
+				</div>
+				<div id="tab-4" class="tab-content my-products-list">
+					<img id="loaderImg" src="images/loader.gif" height="32" width="32" alt="">
+				</div>
+				<div id="tab-5" class="tab-content">
+					<div class="social-media">
+						<p><b>Share the extension? Appreciated! </b></p>
+						<a href="#" id="facebookShare"><img src="images/Facebook.png" height="48" width="48" alt="Facebook Icon"></a>
+						<a href="#" id="twitterShare"><img src="images/Twitter.png" height="48" width="48" alt="Twitter Icon"></a>
+						<a href="#" id="googlePlusShare"><img src="images/GooglePlus.png" height="48" width="48" alt="Google Plus"></a>
+					</div>
+				</div>
+			</div>
+<footer class="footer">
+    <a target="_blank" href="http://goo.gl/UQIqDM"><img src="images/logo.png" height="25" width="25" alt="Alpha Tech">  By: Mohammad M. AlBanna</a>
+</footer>
+</section>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Facebook Mention Tagging Blocker",
+    "version": "2.0.9",
+    "description": "Facebook Mention Tagging Blocker will block, hide and remove mention tagging from specific users or from all users!",
+    "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+    "author": "http://www.mbanna.info",
+    "permissions": ["tabs", "background", "storage","unlimitedStorage"],
+    "browser_action": {
+        "default_icon": "images/48.png",
+        "default_popup": "popup.html"
+    },
+    "homepage_url": "http://www.mbanna.info/facebook-mention-tagging-blocker/",
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": true
+    },
+    "content_scripts": [{
+        "matches": ["https://www.facebook.com/*"],
+        "js": ["js/jquery.js", "js/core.js"],
+        "css":["css/core.css"],
+        "run_at":"document_end"
+    }]
+}

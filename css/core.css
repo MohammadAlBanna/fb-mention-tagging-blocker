@@ -1,0 +1,67 @@
+/**
+ * This code has been written by: Mohammad M. AlBanna
+ * Website: MBanna.info 
+ * Facebook: FB.com/MBanna.info
+ * Copyright © 2016 Mohammad M. AlBanna
+ *
+ * Style of injected windows
+ */
+ 
+.fbmtbAd {
+    padding: 5px;
+    width: 100%;
+    background: #FFF;
+    border: 1px solid;
+    border-color: #E5E6E9 #DFE0E4 #D0D1D5;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.fbmtbAdImage img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 1px;
+    background-color: #FFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px
+}
+.fbmtbAd li {
+    overflow: hidden;
+    padding: 2px;
+    border-bottom: 1px dashed #F0F0F0;
+    position: relative;
+    list-style: none
+}
+.fbmtbAd li:last-child {
+    border-bottom: none
+}
+.fbmtbAd li .fbmtbAdInfo {
+    float: left;
+    margin-left: 5px;
+    display: inline-block;
+    width: 200px;
+    overflow: hidden
+}
+.fbmtbAdInfo a {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.fbmtbAdInfo a:nth-child(1) {
+    font-weight: 700
+}
+.fbmtbAdInfo a:nth-child(2) {
+    font-size: 1em;
+    white-space: initial
+}
+.pagesURL .fbmtbAdInfo a {
+    white-space: initial
+}
+.adByWebsite{
+    text-align: right;
+    line-height: 20px;
+    text-decoration: none;
+}

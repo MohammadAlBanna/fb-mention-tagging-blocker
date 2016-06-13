@@ -1,0 +1,368 @@
+/**
+ * This code has been written by: Mohammad M. AlBanna
+ * Website: MBanna.info 
+ * Facebook: FB.com/MBanna.info
+ * Copyright © 2016 Mohammad M. AlBanna
+ *
+ * Main style of the popup window
+ */
+ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none
+}
+body {
+    margin: 0;
+    padding: 0
+}
+.fbmtb {
+    height: 400px;
+    overflow-y: auto
+}
+#fbmtbLogo {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px
+}
+li, ol, ul {
+    list-style: none
+}
+.container {
+    width: 500px;
+    background-color: #F7F7FC
+}
+a {
+    color: #3B5998;
+    cursor: pointer;
+    text-decoration: none
+}
+.header {
+    text-align: center;
+    border-bottom: 1px solid #E7E7E7;
+    overflow: hidden;
+    height: 50px;
+    background-color: #4C66A4;
+    padding: 5px
+}
+.header h2, .header h4 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #fff
+}
+.action-settings, .on-settings, .shield-settings {
+    padding: 20px 10px;
+    border: 1px solid #B8B6B6;
+    border-radius: 5px;
+    margin-top: 30px;
+    position: relative;
+    color: #000;
+    font-family: tahoma;
+    font-size: 14px
+}
+.action-settings input, .on-settings input, .shield-settings input {
+    margin: 0!important;
+    padding: 0!important
+}
+.action-settings h3, .on-settings h3, .shield-settings h3 {
+    margin: 0 5px;
+    padding: 0;
+    position: absolute;
+    top: -12px;
+    display: inline;
+    background-color: #EDEDED;
+    color: #4C66A4
+}
+.action-settings label, .on-settings label, .shield-settings label {
+    margin-left: 5px
+}
+.fbmtb-block-user-by-id, .fbmtb-search-removeAll-box {
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 10px
+}
+.fbmtb-block-user-by-id .blockUserById, .fbmtb-search-removeAll-box .blockCurrentUser, .fbmtb-search-removeAll-box .removeAllBtn {
+    float: right;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 5px
+}
+.fbmtb-block-user-by-id .block-user-by-id-input, .fbmtb-search-removeAll-box .search-users {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #BBB;
+    width: 170px;
+    color: #757575;
+    height: 20px;
+    outline: 0
+}
+.fbmtb-block-user-by-id .block-user-by-id-input {
+    width: 280px
+}
+#tab-3 {
+    color: #3B5998
+}
+.disable-extension, .stop-from-all-users {
+    display: inline-block;
+    width: 163px;
+    float: right
+}
+.social-media {
+    text-align: center;
+    color: #4C66A4;
+    margin-top: 1%
+}
+.social-media a:hover {
+    opacity: .8
+}
+.social-media p {
+    margin: 5px!important
+}
+.fb-users, .products-list {
+    overflow: hidden;
+    padding: 5px;
+    border-bottom: 1px dashed #CECECE;
+    position: relative
+}
+
+.fb-user-image img, .products-list-image img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    padding: 1px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border: 1px solid rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1)
+}
+.fb-user-info, .products-info {
+    float: left;
+    margin-left: 5px;
+    display: inline-block;
+    width: 330px;
+    height: 50px;
+    overflow: hidden
+}
+.products-info {
+    width: 390px!important
+}
+.fb-user-info a, .products-info a {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.fb-user-info a:nth-child(1), .products-info a:nth-child(1) {
+    font-weight: 700;
+    font-size: 14px!important
+}
+.fb-user-info a:nth-child(2), .products-info a:nth-child(2) {
+    height: 35px;
+    white-space: initial
+}
+.remove-btn {
+    float: right
+}
+.footer a {
+    color: #ECECEC!important;
+    line-height: 30px;
+    position: relative
+}
+.footer img {
+    position: absolute;
+    left: -30px;
+    top: -3px
+}
+.footer {
+    height: 30px;
+    border-bottom: 1px solid #CCC;
+    background-color: #4C66A4;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    z-index: 100
+}
+#loaderImg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px
+}
+.new-tab {
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    font-weight: 700;
+    font-family: tahoma;
+    top: 0;
+    left: 65%
+}
+.social-media b {
+    font-size: 14px
+}
+.social-media iframe {
+    background: #FAFAFA!important;
+    border: 1px solid #C8C8C8!important;
+    border-radius: 5px!important
+}
+.uibutton {
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    display: inline-block;
+    padding: .3em .6em .375em;
+    border: 1px solid #999;
+    border-bottom-color: #888;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    font: 700 11px/normal'lucida grande', tahoma, verdana, arial, sans-serif;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #333;
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f6f6), to(#e4e4e3));
+    background-image: linear-gradient(#f5f6f6, #e4e4e3);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='#f5f6f6', EndColorStr='#e4e4e3');
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1), inset 0 1px 0 #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1), inset 0 1px 0 #fff
+}
+.blockCurrentUser {
+    background-image: linear-gradient(#F97171, #B44);
+    color: #fff;
+    display: none
+}
+
+.blockLoaderImage{
+    float: right;
+    display: none;
+}
+
+.uibutton:active, .uibutton:focus, .uibutton:hover {
+    border-color: #777 #777 #666
+}
+.uibutton:active {
+    border-color: #aaa;
+    background: #ddd;
+    filter: none;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+.uibutton.confirm {
+    border-color: #29447e #29447e #1a356e;
+    color: #fff;
+    background-color: #5B74A8;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
+    background-image: linear-gradient(#637bad, #5872a7);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='#637bad', EndColorStr='#5872a7');
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1), inset 0 1px 0 #8a9cc2;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1), inset 0 1px 0 #8a9cc2
+}
+.uibutton.confirm:active {
+    border-color: #29447E;
+    background: #4F6AA3;
+    filter: none;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+ul.tabs {
+    margin: 5px 5px 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    z-index: 100
+}
+ul.tabs li {
+    background: 0 0;
+    color: #4C66A4;
+    display: inline-block;
+    padding: 9px 20px;
+    cursor: pointer;
+    position: relative
+}
+ul.tabs li.current {
+    background-color: #DFDFDF;
+    color: #4C66A4;
+    font-weight: 700;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-top: 1px solid #D6D6D6;
+    border-left: 1px solid #D6D6D6;
+    border-right: 1px solid #D6D6D6
+}
+.tab-content {
+    display: none;
+    background: #ededed;
+    position: relative;
+    padding: 9px 9px 0;
+    height: 350px;
+    overflow: auto;
+    z-index: 1;
+    width: 94%!important
+}
+.tab-content:after {
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    background: url(../images/128.png) center/100% no-repeat fixed;
+    width: 100%;
+    height: 100%;
+    opacity: .04;
+    position: fixed;
+    z-index: -100
+}
+.tab-content.current {
+    display: inherit;
+    border-top: 1px solid #D6D6D6
+}
+#scrollbox4 {
+    overflow: auto;
+    padding: 0 5px;
+    border: 1px solid #b7b7b7
+}
+.track4 {
+    width: 10px;
+    background-clip: padding-box;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0 0 0 1px
+}
+.track4.dragging, .track4:hover {
+    background: #f2f2f2;
+    background: rgba(0, 0, 0, .05);
+    box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1)
+}
+.track4:active {
+    background: #f2f2f2;
+    background: rgba(0, 0, 0, .05);
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .14), inset -1px -1px 0 rgba(0, 0, 0, .07);
+    box-shadow: inset 1px 0 0 rgba(0, 0, 0, .14), inset -1px -1px 0 rgba(0, 0, 0, .07)
+}
+.handle4 {
+    width: 10px;
+    right: 0;
+    background: #696969;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+    border-radius: 5px
+}
+.handle4:hover {
+    background: #999;
+    background: rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .25);
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .25)
+}
+.dragging .handle4, .handle4:active {
+    background: gray;
+    background: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .35);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .35)
+}
