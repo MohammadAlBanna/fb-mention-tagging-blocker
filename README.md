@@ -9,7 +9,7 @@ Facebook Mention Tagging Blocker will block, hide and remove mention tagging fro
 - You'll see the popup icon of the extension in the tools bar.
 
 # Links
-- [More details on my portfolio (available on Chrome Web Store).](http://www.mbanna.info/facebook-mention-tagging-blocker/)
+- [More details on my portfolio.](http://www.mbanna.info/facebook-mention-tagging-blocker/)
 - [More details on my Arabic blog.](http://www.outofpalbox.net/2014/05/facebook-mention-tagging-blocker/)
 - [The promo video on YouTube.](https://www.youtube.com/watch?v=lzdR2c4w4yk)
 
